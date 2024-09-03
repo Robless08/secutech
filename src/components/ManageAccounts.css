@@ -1,0 +1,87 @@
+.Adds {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    /* border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(14, 13, 13, 0.1);
+    width: 160%; */
+ 
+}
+  
+  
+  .format {
+    margin-bottom: 40px;
+  }
+
+  .format input{
+
+  }
+  
+  /* input  {
+    padding: 10px;
+    margin: 5px;
+    width: calc(100% - 22px);
+    max-width: 280px;
+    box-sizing: border-box;
+  } */
+  
+  button {
+    padding: 10px 20px;
+    /* margin: 5px; */
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    margin-bottom: 20%;
+    /* margin-left: %; */
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .account-list {
+    text-align: left;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .combo{
+    margin-top: 30px;
+    padding: 10px;
+  }
+  .combo h1{
+    color: var(--base-text-color);
+    
+  }
+  .combo1 h2{
+    color: var(--base-text-color);
+    margin-right: -15%;
+  }
+  
+  .nut {
+    padding: 10px;
+    color: var(--base-text-color);
+    /* background-color: #f4f4f4; */
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li button {
+    background-color: #133396;
+  }
+  
+  li button:hover {
+    background-color: #1b4bc4;
+  }
+  

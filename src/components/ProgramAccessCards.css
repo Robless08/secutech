@@ -1,0 +1,79 @@
+.Application {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.former {
+  margin-bottom: 20px;
+  margin-right: -0%;
+}
+
+input, select {
+  padding: 10px;
+  margin: 5px;
+  width: calc(100% - 22px);
+  max-width: 300px;
+  box-sizing: border-box;
+  margin-left: 15%;
+}
+
+.Dell{
+  width: 30%;
+  background-color: rgb(20, 127, 249);
+  margin-left: -70%;
+}
+
+.Only{
+  width: 40%;
+  margin-left: 20%;
+}
+
+/* button {
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+} */
+
+.card-list {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.card-list h2{
+  color: var(--base-text-color);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  /* background-color: #f4f4f4; */
+  margin-bottom: 5px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li select {
+  margin-right: 10px;
+}
+
+.email{
+  color: var(--base-text-color);
+}
+

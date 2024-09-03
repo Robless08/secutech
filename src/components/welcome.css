@@ -1,0 +1,119 @@
+
+
+.type, h1{
+    color: white;
+}
+    
+.Ash {
+    background-image: url('./img/sec.avif');
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: #282c34; */
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .welcome {
+    animation: fadeIn 2s ease-in-out;
+  }
+  .welcome, h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 200px;
+    font-family: 'Times New Roman';
+    
+  }
+
+  .well{
+    font-size: 48px;
+    color: white;
+  }
+
+  .sec{
+    font-size: 38px;
+    color: white;
+    margin-top:1%;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .rfid-card {
+    position: relative;
+    width: 200px;
+    height: 120px;
+    margin: 20px auto;
+    background-color: #007bff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  .chip {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 40px;
+    height: 30px;
+    background-color: #ffd700;
+    border-radius: 5px;
+  }
+  
+  .wave {
+    position: absolute;
+    bottom: -20px;
+    left: -40px;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    animation: wave 5s infinite linear;
+  }
+  
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  @keyframes wave {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .pointers{
+    margin-top: 100px;
+    margin-left: 1%;
+    border-radius: 10px;
+    color: beige;
+    width: 30%;
+    /* height: 10vh; */
+    animation: bounce 2s;
+    background: rgb(59, 126, 181);font-weight: bold;
+}
+a{
+    color: beige;
+}
+
+.pointer:hover{
+    background: orange;
+    transform: scale(1.1);
+}

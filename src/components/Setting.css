@@ -1,0 +1,46 @@
+.Dam {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+
+  .int {
+    color: white;
+  }
+
+  
+  .role-selector {
+    margin-bottom: 20px;
+    color: white;
+    font-size: large;
+    border-radius: 15px;
+  }
+  
+  select {
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 16px;
+  }
+  
+  .role-status {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+    
+    
+  }
+  
+  p {
+    font-size: 18px;
+    color: #3d3d3d;
+  }
+
+  
+
+  
